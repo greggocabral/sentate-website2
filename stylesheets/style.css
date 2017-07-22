@@ -10,41 +10,70 @@
 }
 
 .mode-label {
+  position: absolute;
+  float: left;
+  width: 20%;
+  font-size: 2vh;
+}
+
+#content{
+  width:200%;
+  padding: 0;
+  margin: 0;
+}
+
+.mode-content {
   position: relative;
   float: left;
   width: 50%;
 }
 
-.mode-content {
-  position: relative;
-  float: left;
-  /*visibility: hidden;*/
+#passenger-label {
+  margin-left: 20%
+}
+#company-label {
+  margin-left: 60%
 }
 
-.mode-content {
-  position: relative;
-  float: left;
-  height: 0%;
+#passenger-content {
+  margin-left: -50%
+}
+#company-content {
+  margin-left: 50%
+}
+
+.page {
+  height: 100vh;
 }
 
 .hideOverflow
 {
     overflow:hidden;
-    white-space:nowrap;
-    text-overflow:ellipsis;
 }
 
 .link, .link:active,  .link:visited {
   text-decoration: none;
-  color: white;
+  color: #cc9966;
 }
 
 .link:hover {
   text-decoration: none;
-  color: white;
+  color: #cc9966;
   opacity: 70%;
 }
 
+
+.mt-25 {
+  margin-top: 25vh;
+}
+
+.mb-25 {
+  margin-bottom: 15vh;
+}
+
+.mb-15 {
+  margin-bottom: 15vh;
+}
 
 .mb-6 {
   margin-bottom: 6vh;
@@ -77,8 +106,13 @@
   padding-right: 4vh;
 }
 
-.h1-custom{
+.h0-custom{
   font-size: 60px;  
+  line-height: 1;
+}
+
+.h1-custom{
+  font-size: 45px;  
   line-height: 1;
 }
 
@@ -151,6 +185,10 @@
   font-weight: 300;
 }
 
+.montse-font-light{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+}
 .red-font{
   color: #d02622;
 }
