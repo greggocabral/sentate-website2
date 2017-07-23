@@ -11,9 +11,8 @@ function checkMode(action){
 			switch(action){
 				case 'click-passenger':
 					mode = 'passenger';
-						$("#company-label").animate({'margin-left': '80%'},slideSpeed,function() {});
-					 	$("#passenger-label").animate({'margin-left': '40%'},slideSpeed,function() {});
-					 	$(".mode-label").animate({'width': '20%'},slideSpeed,function() {});
+						$("#company-label").animate({'margin-left': '76%'},slideSpeed,function() {});
+					 	$("#passenger-label").animate({'margin-left': '38%'},slideSpeed,function() {});
 
 					 	$("#passenger-content").animate({'margin-left': '0%'},slideSpeed,function() {});
 					 	$("#company-content").animate({'margin-left': '50%'},slideSpeed,function() {});
@@ -28,7 +27,7 @@ function checkMode(action){
 				case 'click-company':
 					mode = 'company';
 						$("#passenger-label").animate({'margin-left': '0%'},slideSpeed,function() {});
-						$("#company-label").animate({'margin-left': '40%'},slideSpeed,function() {});
+						$("#company-label").animate({'margin-left': '38%'},slideSpeed,function() {});
 
 					 	$("#passenger-content").animate({'margin-left': '-50%'},slideSpeed,function() {});
 					 	$("#company-content").animate({'margin-left': '0%'},slideSpeed,function() {});
@@ -47,8 +46,8 @@ function checkMode(action){
 			switch(action){
 				case 'click-passenger':
 					mode = 'none';
-					$("#passenger-label").animate({'margin-left': '20%'},slideSpeed,function() {});
-					$("#company-label").animate({'margin-left': '60%'},slideSpeed,function() {});
+					$("#passenger-label").animate({'margin-left': '18%'},slideSpeed,function() {});
+					$("#company-label").animate({'margin-left': '58%'},slideSpeed,function() {});
 				 	
 				 	$("#arrow").slideUp(slideSpeed, function(){});
 				 	$("#company-label-text").slideDown(slideSpeed, function(){});
@@ -60,7 +59,7 @@ function checkMode(action){
 					mode = 'company';
 					$("#company-content").slideDown(slideSpeed, function(){});
 					$("#passenger-label").animate({'margin-left': '0%'},slideSpeed,function() {});
-					$("#company-label").animate({'margin-left': '40%'},slideSpeed,function() {});
+					$("#company-label").animate({'margin-left': '38%'},slideSpeed,function() {});
 					$("#passenger-content").animate({'margin-left': '-50%'},slideSpeed,function() {});
 				 	$("#company-content").animate({'margin-left': '0%'},slideSpeed,function() {});
 
@@ -78,8 +77,8 @@ function checkMode(action){
 				case 'click-passenger':
 					mode = 'passenger';
 					$("#passenger-content").slideDown(slideSpeed, function(){});
-					$("#company-label").animate({'margin-left': '80%'},slideSpeed,function() {});
-				 	$("#passenger-label").animate({'margin-left': '40%'},slideSpeed,function() {});
+					$("#company-label").animate({'margin-left': '76%'},slideSpeed,function() {});
+				 	$("#passenger-label").animate({'margin-left': '38%'},slideSpeed,function() {});
 				 	$("#passenger-content").animate({'margin-left': '0%'},slideSpeed,function() {});
 				 	$("#company-content").animate({'margin-left': '50%'},slideSpeed,function() {});
 
@@ -93,8 +92,8 @@ function checkMode(action){
 					mode = 'none';
 
 					$("#company-content").slideUp(slideSpeed, function(){});
-					$("#company-label").animate({'margin-left': '60%'},slideSpeed,function() {});
-				 	$("#passenger-label").animate({'margin-left': '20%'},slideSpeed,function() {});
+					$("#company-label").animate({'margin-left': '58%'},slideSpeed,function() {});
+				 	$("#passenger-label").animate({'margin-left': '18%'},slideSpeed,function() {});
 				 	
 				 	$("#arrow").slideUp(slideSpeed, function(){});
 				 	$("#passenger-label-text").slideDown(slideSpeed, function(){});
