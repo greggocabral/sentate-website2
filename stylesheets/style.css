@@ -63,6 +63,8 @@
 }
 
 
+
+
 .mt-20 {
   margin-top: 20vh;
 }
@@ -237,6 +239,10 @@
 
 .pink-bg {
   background: #a73c70;
+}
+
+.grey-bg {
+  background: #9a9997;
 }
 
 .caption {
